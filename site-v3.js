@@ -37,18 +37,16 @@
     }
   }
 
-  // Skill count: 6 GOED originals + community catalog.
-  fetch('/skills/community-catalog.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).then(items=>{
-    const total=6+(Array.isArray(items)?items.length:0);
-    document.querySelectorAll('[data-v3-skill-count]').forEach(el=>el.textContent=total);
-    const sh=document.querySelector('.skills-home-head>div');
-    if(sh && !sh.querySelector('.v3-skills-count')){
-      const count=document.createElement('div');
-      count.className='v3-skills-count';
-      count.innerHTML='<b>'+total+'</b><span data-v3-copy="skillsCount">reusable AI skills in the library</span>';
-      sh.appendChild(count); syncCopy();
-    }
-  }).catch(()=>{});
+  // Static production count: 6 GOED Originals + 207 vetted community Skills.
+  const total=213;
+  document.querySelectorAll('[data-v3-skill-count]').forEach(el=>el.textContent=total);
+  const sh=document.querySelector('.skills-home-head>div');
+  if(sh && !sh.querySelector('.v3-skills-count')){
+    const count=document.createElement('div');
+    count.className='v3-skills-count';
+    count.innerHTML='<b>'+total+'</b><span data-v3-copy="skillsCount">reusable AI skills in the library</span>';
+    sh.appendChild(count); syncCopy();
+  }
 
   // More confident hero copy, still plain-spoken.
   const copy={
