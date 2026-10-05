@@ -1,0 +1,69 @@
+/* Home v7 — Chinese hero collision fix */
+html[lang="zh-CN"] body.v3-immersive .hero{
+  grid-template-columns:minmax(0,.96fr) minmax(560px,1.04fr)!important;
+  column-gap:42px!important;
+}
+html[lang="zh-CN"] body.v3-immersive .hero-main{
+  z-index:6!important;
+  max-width:720px!important;
+  min-width:0;
+}
+html[lang="zh-CN"] body.v3-immersive .hero h1{
+  display:flex!important;
+  flex-direction:column;
+  gap:.10em;
+  max-width:700px!important;
+  font-size:clamp(64px,4.8vw,80px)!important;
+  line-height:1!important;
+  margin:20px 0 24px!important;
+}
+html[lang="zh-CN"] body.v3-immersive .hero h1>span,
+html[lang="zh-CN"] body.v3-immersive .hero h1>em{
+  display:block!important;
+  width:auto!important;
+  max-width:100%!important;
+  margin:0!important;
+  padding:.05em 0 .07em!important;
+  line-height:1.02!important;
+  white-space:nowrap!important;
+  overflow:visible!important;
+}
+html[lang="zh-CN"] body.v3-immersive .now-building{
+  z-index:3!important;
+  margin-left:22px!important;
+}
+html[lang="zh-CN"] body.v3-immersive .stack-photo-left{
+  inset:42px 64px 72px 36px!important;
+}
+html[lang="zh-CN"] body.v3-immersive .stack-photo-front{
+  inset:54px 8px 12px 46px!important;
+}
+html[lang="zh-CN"] body.v3-immersive .stack-photo-right{
+  inset:22px 0 92px 114px!important;
+}
+@media(max-width:1180px){
+  html[lang="zh-CN"] body.v3-immersive .hero{
+    grid-template-columns:1fr!important;
+  }
+  html[lang="zh-CN"] body.v3-immersive .hero-main{
+    max-width:860px!important;
+  }
+  html[lang="zh-CN"] body.v3-immersive .hero h1{
+    max-width:860px!important;
+  }
+  html[lang="zh-CN"] body.v3-immersive .now-building{
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+}
+@media(max-width:760px){
+  html[lang="zh-CN"] body.v3-immersive .hero h1{
+    font-size:clamp(46px,12.2vw,60px)!important;
+    gap:.08em;
+  }
+  html[lang="zh-CN"] body.v3-immersive .hero h1>span,
+  html[lang="zh-CN"] body.v3-immersive .hero h1>em{
+    white-space:normal!important;
+    padding:.04em 0 .05em!important;
+  }
+}

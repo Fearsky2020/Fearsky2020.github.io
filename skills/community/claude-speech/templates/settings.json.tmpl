@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "{{PY}} \"$CLAUDE_PROJECT_DIR\\scripts\\speak_lang.py\" --voice {{VOICE}} --tag {{LANG_CODE}}{{OUTPUT_DEVICE_ARG}}"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "{{PY}} \"$CLAUDE_PROJECT_DIR\\scripts\\inject_transcript.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

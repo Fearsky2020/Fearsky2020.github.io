@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "analytics-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "business-growth-skills",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "business-operations-skills",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-moderator",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "cost-optimization",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "cro-optimization",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "customer-success-manager",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "domain-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "experimentation-platform-orchestrator",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "feature-launch-playbook",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "internal-comms",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "partnerships-architect",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "pricing-strategist",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "product-analytics-setup",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "product-skills",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "image-editing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "media-asset-management",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "accessibility",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "accessibility-audit",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "accessibility-engineer",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "accessibility-testing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "art-direction",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "banner-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "brand-archetype-system",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "brand-discovery",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "brand-ideation",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "brand-identity",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "brand-style-guide",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "brand-voice",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "calculator-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "chatbot-flow-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "comparison-tool-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "creative-brief",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "creative-brief-selector",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "creative-coder",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "creative-direction",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "design-standards",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "design-system",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "form-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "frontend-implementation",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "information-architecture",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "interactive-product-tour",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "logo-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "multi-step-form-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "onboarding-wizard-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "product-configurator-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "scheduler-and-booking-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "ui-designer",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "ui-styling",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "upgrade-flow-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "usability-psychologist",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "usability-testing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "vertical-site-conventions",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "backup-and-disaster-recovery",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "code-review-web",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "data-warehouse-experimentation",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "dependency-management",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "feature-flagging",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "frontend-component-build",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "incident-response",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "integration-orchestrator",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "monitoring-and-alerting",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "performance-optimization",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "qa-testing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "security-baseline",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "tool-use-architect",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "claude-speech",
+    "flags": [
+      "destructive",
+      "publish",
+      "network"
+    ]
+  },
+  {
+    "id": "quiz-and-assessment-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "ab-test-setup",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "ad-creative",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "ads-creative-development",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "ads-performance-analytics",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "brand-guidelines",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "campaign-analytics",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "churn-prevention",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "cold-email",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "competitor-alternatives",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "email-deliverability",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "email-sequences",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "form-cro",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "free-tool-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "funnel-flow-architecture",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "landing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "launch-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "lead-magnet-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "linkedin-analytics",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "linkedin-content",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "linkedin-engagement",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "linkedin-skills",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "linkedin-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "marketing-context",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "marketing-ideas",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "marketing-ops",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "marketing-psychology",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "marketing-skills",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "paid-ads",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "paid-media-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "paywall-upgrade-cro",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "popup-cro",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "pricing-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "prompt-engineer-toolkit",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "referral-program",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "social-media-manager",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "webinar-marketing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "x-twitter-growth",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "youtube-full",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "after-action-report",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "beta-program-management",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "deep-work",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "inbox-triage",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "launch-runbook",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "meetings",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "okr-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "pm-skills",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "pm-spec-writing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "roadmap-planning",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "skill-creation-walkthrough",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "stakeholder-communication",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "team-onboarding-playbook",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "vendor-evaluation",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "competitor-experience-audit",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "discovery-research-synthesis",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "dossier",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "evidence-based-reviews",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "experiment-design",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "experimentation-analytics",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "journey-mapping",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "jtbd-framing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "litreview",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "market-research",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "product-research",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "pulse",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "research-summarizer",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "storm-research",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "syllabus",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "user-feedback-aggregation",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "ux-research",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "local-seo-manager",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "programmatic-seo",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "schema-markup",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-aeo-geo",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-audit",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-audit-orchestration",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-backlink-audit",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-backlinks",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-cluster",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-competitor",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-competitor-pages",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-content",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-content-audit",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-content-brief",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-content-gap-audit",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-dataforseo",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-drift",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-ecommerce",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-flow",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-geo",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-google",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-hreflang",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-image-gen",
+    "flags": [
+      "publish",
+      "privileged"
+    ]
+  },
+  {
+    "id": "seo-images",
+    "flags": [
+      "publish",
+      "privileged"
+    ]
+  },
+  {
+    "id": "seo-keyword",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-keyword-gap-audit",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-local",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-maps",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-offpage",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-onpage",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-page",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-plan",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-programmatic",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-rank-tracking",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-schema",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-site-health-audit",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-sitemap",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-sxo",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-technical",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "seo-traffic-diagnosis",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "site-architecture",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "ai-content-collaboration",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-and-copy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-brief-authoring",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-creator",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-distribution",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-humanizer",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-migration",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-production",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-refresh-system",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "content-repurposing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "copy-editing",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "copywriting",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "documentation-strategy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "editorial-qa",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "internationalization",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "landing-page-copy",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "line-and-copy-editor",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "long-form-content-frameworks",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "pillar-content-architecture",
+    "flags": [
+      "publish"
+    ]
+  },
+  {
+    "id": "social-content",
+    "flags": [
+      "publish"
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+/* Home v5 — readability + native Chinese rhythm */
+
+/* Yellow process: dark ink instead of low-contrast cool gray */
+body.v3-immersive .process{
+  color:#111821;
+}
+body.v3-immersive .process .kicker.light{
+  color:#0b617d !important;
+}
+body.v3-immersive .process-intro>p{
+  color:#34404b !important;
+}
+body.v3-immersive .process-intro>a{
+  color:#075a78 !important;
+  border-color:#075a78 !important;
+}
+body.v3-immersive .process li>b{
+  color:#086381 !important;
+  font-weight:800;
+}
+body.v3-immersive .process li h3{
+  color:#101820 !important;
+}
+body.v3-immersive .process li p{
+  color:#3d4853 !important;
+}
+body.v3-immersive .process ol li{
+  border-color:rgba(17,24,32,.28) !important;
+}
+
+/* Blue capability wall: stronger white hierarchy */
+body.v3-immersive .v3-cap-head>p{
+  color:rgba(255,255,255,.88) !important;
+}
+body.v3-immersive .v3-cap small{
+  color:rgba(255,255,255,.78) !important;
+}
+body.v3-immersive .v3-cap p{
+  color:rgba(255,255,255,.86) !important;
+}
+body.v3-immersive .v3-cap{
+  border-color:rgba(255,255,255,.26) !important;
+  background-color:rgba(255,255,255,.10);
+}
+body.v3-immersive .v3-cap .v3-cap-arrow{
+  border-color:rgba(255,255,255,.34);
+  color:#fff;
+}
+
+/* Service-index cards: guarantee dark card + readable text */
+body.v3-immersive .service-index-links{
+  background:rgba(255,255,255,.12) !important;
+  border-color:rgba(255,255,255,.12) !important;
+}
+body.v3-immersive .service-index-links>a{
+  color:#fff !important;
+  background:linear-gradient(145deg,rgba(14,42,76,.96),rgba(8,27,52,.96)) !important;
+  border-color:rgba(255,255,255,.14) !important;
+}
+body.v3-immersive .service-index-links strong{
+  color:#fff !important;
+}
+body.v3-immersive .service-index-links span{
+  color:rgba(255,255,255,.84) !important;
+}
+body.v3-immersive .service-index-links b{
+  color:#67ddff !important;
+}
+body.v3-immersive .service-index-links>a:hover{
+  background:linear-gradient(145deg,rgba(18,54,94,.98),rgba(10,34,63,.98)) !important;
+}
+
+/* General readable secondary copy */
+body.v3-immersive .editorial-intro{
+  color:#4b5562 !important;
+}
+body.v3-immersive .own-heading>p,
+body.v3-immersive .pricing-title>p{
+  color:#4f5965 !important;
+}
+body.v3-immersive .skills-home-head>p{
+  color:rgba(255,255,255,.82) !important;
+}
+
+/* Chinese headings: large, but not billboard-sized on mobile */
+@media(max-width:640px){
+  html[lang="zh-CN"] body.v3-immersive .editorial-heading h2,
+  html[lang="zh-CN"] body.v3-immersive .service-index h2,
+  html[lang="zh-CN"] body.v3-immersive .v3-cap-head h2,
+  html[lang="zh-CN"] body.v3-immersive .process-intro h2,
+  html[lang="zh-CN"] body.v3-immersive .about-copy h2,
+  html[lang="zh-CN"] body.v3-immersive .pricing-title h2,
+  html[lang="zh-CN"] body.v3-immersive .contact-copy h2{
+    font-family:Goed,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    font-size:clamp(42px,11.5vw,52px) !important;
+    line-height:1.06 !important;
+    letter-spacing:-.035em !important;
+    word-break:normal;
+    overflow-wrap:break-word;
+  }
+  html[lang="zh-CN"] body.v3-immersive .process-intro>p,
+  html[lang="zh-CN"] body.v3-immersive .v3-cap-head>p,
+  html[lang="zh-CN"] body.v3-immersive .editorial-intro{
+    font-size:16px !important;
+    line-height:1.75 !important;
+  }
+  html[lang="zh-CN"] body.v3-immersive .process li p,
+  html[lang="zh-CN"] body.v3-immersive .v3-cap p,
+  html[lang="zh-CN"] body.v3-immersive .service-index-links span{
+    font-size:15px;
+    line-height:1.7;
+  }
+}
+
+/* Keep body copy readable against mobile browser chrome / sunlight */
+@media(max-width:760px){
+  body.v3-immersive .contact p,
+  body.v3-immersive .contact label{
+    color:rgba(255,255,255,.84) !important;
+  }
+}

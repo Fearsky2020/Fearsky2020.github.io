@@ -1,0 +1,121 @@
+/* GOED WEBWERK Home v4 — concise hero */
+body.v3-immersive .hero{
+  min-height:min(900px,100svh);
+  padding-top:132px;
+  padding-bottom:74px;
+  grid-template-columns:minmax(0,.96fr) minmax(500px,1.04fr);
+  gap:4.5vw;
+  align-items:center;
+}
+body.v3-immersive .hero-main{
+  align-self:center;
+  max-width:760px;
+}
+body.v3-immersive .hero h1{
+  max-width:760px!important;
+  margin:22px 0 26px!important;
+  font-size:clamp(72px,5.85vw,98px)!important;
+  line-height:.91!important;
+  letter-spacing:-.06em!important;
+  overflow:visible!important;
+}
+body.v3-immersive .hero h1>span,
+body.v3-immersive .hero h1>em{
+  display:block!important;
+  overflow:visible!important;
+  line-height:.96!important;
+  padding-top:.08em;
+  padding-bottom:.06em;
+  margin-top:-.08em;
+  margin-bottom:-.06em;
+}
+body.v3-immersive .hero h1>em{
+  margin-top:.02em!important;
+}
+body.v3-immersive .hero-bottom{
+  margin-top:18px!important;
+  align-items:center!important;
+}
+body.v3-immersive .hero-bottom>p{
+  max-width:590px!important;
+  font-size:18px!important;
+  line-height:1.6!important;
+}
+body.v3-immersive .v3-signals{
+  margin:18px 0 22px!important;
+}
+body.v3-immersive .now-building{
+  min-height:610px!important;
+  max-height:680px;
+}
+body.v3-immersive .stack-photo-front{
+  inset:54px 12px 12px 20px!important;
+}
+body.v3-immersive .stack-photo-left{
+  inset:34px 72px 72px 0!important;
+}
+body.v3-immersive .stack-photo-right{
+  inset:18px 0 88px 88px!important;
+}
+
+html[lang="zh-CN"] body.v3-immersive .hero h1{
+  font-family:Goed,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+  font-size:clamp(68px,5.3vw,88px)!important;
+  line-height:.98!important;
+  letter-spacing:-.035em!important;
+  max-width:760px!important;
+  word-break:keep-all;
+}
+html[lang="zh-CN"] body.v3-immersive .hero h1>span,
+html[lang="zh-CN"] body.v3-immersive .hero h1>em{
+  line-height:1.02!important;
+  white-space:nowrap;
+}
+html[lang="zh-CN"] body.v3-immersive .hero-bottom>p{
+  font-size:18px!important;
+  line-height:1.75!important;
+}
+
+@media(max-width:1050px){
+  body.v3-immersive .hero{
+    grid-template-columns:1fr;
+    min-height:auto;
+    padding-top:142px;
+  }
+  body.v3-immersive .hero-main{max-width:860px}
+  body.v3-immersive .hero h1{max-width:860px!important}
+  body.v3-immersive .now-building{
+    min-height:560px!important;
+    max-width:760px;
+    width:92%;
+    margin:18px auto 0;
+  }
+}
+@media(max-width:760px){
+  body.v3-immersive .hero{
+    padding:118px 18px 62px;
+    gap:24px;
+  }
+  body.v3-immersive .hero h1{
+    font-size:clamp(52px,13.8vw,68px)!important;
+    line-height:.93!important;
+    margin-bottom:20px!important;
+  }
+  body.v3-immersive .hero h1>span,
+  body.v3-immersive .hero h1>em{
+    line-height:.98!important;
+    padding-top:.08em;
+    padding-bottom:.06em;
+    margin-top:-.08em;
+    margin-bottom:-.06em;
+  }
+  html[lang="zh-CN"] body.v3-immersive .hero h1{
+    font-size:clamp(48px,12.5vw,62px)!important;
+  }
+  html[lang="zh-CN"] body.v3-immersive .hero h1>span,
+  html[lang="zh-CN"] body.v3-immersive .hero h1>em{
+    white-space:normal;
+  }
+  body.v3-immersive .hero-bottom>p{font-size:16px!important}
+  body.v3-immersive .now-building{min-height:410px!important;width:100%}
+}

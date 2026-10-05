@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Skills | GOED WEBWERK</title>
+  <meta name="description" content="Vind praktische AI Skills voor design, SEO, marketing, schrijven, research, productiviteit en development.">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <link rel="canonical" href="https://goedwebwerk.nl/skills/">
+  <link rel="icon" href="../mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="skills.css?v=1">
+  <link rel="stylesheet" href="skills-v3.css?v=1">
+  <link rel="stylesheet" href="skills-v3-2.css?v=1">
+  <link rel="stylesheet" href="skills-v4.css?v=2">
+  <link rel="stylesheet" href="skills-v4-hotfix.css?v=1">
+</head>
+<body>
+  <header class="skills-header">
+    <a class="brand" href="/" aria-label="GOED WEBWERK"><img src="../logo.svg" alt="GOED WEBWERK"></a>
+    <div class="skills-nav">
+      <a href="/" data-ui="back">Websites</a>
+      <a href="#explore" class="v4-nav-link" data-v4="navCategories">Categorieën</a>
+      <a href="#library" class="v4-nav-link" data-v4="navLibrary">Bibliotheek</a>
+      <div class="lang-switch" aria-label="Taal kiezen">
+        <button type="button" data-lang="nl" class="active">NL</button>
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="zh">中文</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="skills-hero">
+      <div>
+        <p class="eyebrow"><i></i><span data-ui="heroK">AI Skills van GOED WEBWERK</span></p>
+        <h1><span data-ui="hero1">Geef AI een werkwijze.</span><em data-ui="hero2">Niet alleen een prompt.</em></h1>
+        <p data-ui="heroP">Praktische, herbruikbare instructies voor werk dat je vaker doet — getest, duidelijk en direct te kopiëren.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#explore"><span data-v4="findSkill">Vind een Skill</span> ↓</a>
+          <a class="btn" href="mailto:hallo@goedwebwerk.nl?subject=AI%20Skill%20op%20maat" data-ui="custom">Skill op maat</a>
+        </div>
+      </div>
+      <aside class="hero-panel">
+        <strong id="total-skill-count">213</strong>
+        <p data-ui="count">beschikbare skills</p>
+        <ul>
+          <li><span>10</span><span data-v4="categoryCount">categorieën</span></li>
+          <li><span>6</span><span data-v4="originalCount">GOED Originals</span></li>
+          <li><span>NL · EN · 中文</span><span data-ui="langs">talen</span></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="v4-explore" id="explore">
+      <header class="v4-section-head">
+        <div>
+          <p class="eyebrow"><i></i><span data-v4="startHere">Begin hier</span></p>
+          <h2 data-v4="whatDoYouWant">Wat wil je met AI doen?</h2>
+        </div>
+        <p data-v4="exploreIntro">Kies eerst een richting. Daarna kun je verfijnen op categorie, bron of zoekterm.</p>
+      </header>
+      <div class="v4-category-grid" id="category-grid" aria-label="Skill categorieën"></div>
+    </section>
+
+    <section class="v4-originals" id="originals">
+      <header class="v4-section-head compact">
+        <div>
+          <p class="eyebrow"><i></i><span>GOED ORIGINALS</span></p>
+          <h2 data-v4="originalsTitle">Onze eigen, geteste workflows.</h2>
+        </div>
+        <p data-v4="originalsIntro">Kleinere selectie, direct inzetbaar. Dit zijn Skills die we zelf gebruiken en verder blijven aanscherpen.</p>
+      </header>
+      <div class="v4-original-grid" id="original-grid"></div>
+    </section>
+
+    <section class="library v4-library" id="library">
+      <div class="library-head">
+        <div>
+          <p class="eyebrow"><i></i><span data-v4="allSkills">Alle Skills</span></p>
+          <h2 data-v4="libraryTitle">Zoek gericht. Niet eindeloos scrollen.</h2>
+        </div>
+        <p data-v4="libraryIntro">Filter op wat je wilt bereiken. We tonen standaard een overzichtelijke selectie en laden meer als jij dat wilt.</p>
+      </div>
+
+      <div class="v4-library-shell">
+        <aside class="v4-sidebar" aria-label="Filters">
+          <div class="v4-filter-group">
+            <strong data-v4="source">Bron</strong>
+            <div class="v4-segmented" id="source-filter">
+              <button type="button" data-origin-filter="all" class="active" data-v4="all">Alles</button>
+              <button type="button" data-origin-filter="goed">GOED</button>
+              <button type="button" data-origin-filter="community">Community</button>
+            </div>
+          </div>
+          <div class="v4-filter-group">
+            <strong data-v4="category">Categorie</strong>
+            <div class="v4-category-list" id="detail-category-list"></div>
+          </div>
+          <button type="button" class="v4-clear" id="clear-filters" data-v4="clearFilters">Wis filters</button>
+        </aside>
+
+        <div class="v4-results">
+          <div class="v4-toolbar">
+            <label class="v4-search">
+              <span aria-hidden="true">⌕</span>
+              <input id="v4-search" type="search" autocomplete="off" placeholder="Zoek op taak, naam of categorie…">
+            </label>
+            <div class="v4-toolbar-right">
+              <span id="v4-result-count" class="v4-result-count"></span>
+              <label class="v4-sort-label">
+                <span data-v4="sort">Sorteren</span>
+                <select id="v4-sort">
+                  <option value="recommended" data-v4-option="recommended">Aanbevolen</option>
+                  <option value="az" data-v4-option="az">A–Z</option>
+                  <option value="category" data-v4-option="categorySort">Categorie</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="community-safety-note">
+            <strong data-v4="openSource">Open source, transparant.</strong>
+            <span data-v4="safetyText">Community Skills tonen altijd bron en licentie. Bekijk de inhoud vóór installatie; scripts worden niet automatisch uitgevoerd.</span>
+          </div>
+
+          <div class="skill-grid" id="skill-grid">
+            <article class="skill-card" data-skill="ui" data-category="design" data-origin="goed">
+              <div class="skill-meta"><span>Design</span><span class="skill-price">GOED Original</span></div>
+              <h3 data-title>Website UI Critic</h3><p data-desc>Laat AI een website of screenshot beoordelen alsof een senior designer meekijkt.</p>
+              <div class="skill-tags"><span>UI/UX</span><span>Audit</span><span>Web</span></div>
+              <button class="open-skill" type="button" data-open-skill data-ui="open">Bekijk &amp; kopieer →</button>
+            </article>
+            <article class="skill-card" data-skill="landing" data-category="design" data-origin="goed">
+              <div class="skill-meta"><span>Design</span><span class="skill-price">GOED Original</span></div>
+              <h3 data-title>Landing Page Designer</h3><p data-desc>Van ruwe propositie naar een duidelijke landingspagina zonder typische AI-look.</p>
+              <div class="skill-tags"><span>Landing page</span><span>Conversion</span><span>Layout</span></div>
+              <button class="open-skill" type="button" data-open-skill data-ui="open">Bekijk &amp; kopieer →</button>
+            </article>
+            <article class="skill-card" data-skill="copy" data-category="business" data-origin="goed">
+              <div class="skill-meta"><span>Business</span><span class="skill-price">GOED Original</span></div>
+              <h3 data-title>Lokale Website Copywriter</h3><p data-desc>Schrijft nuchtere, lokale webteksten die klanten snel begrijpen.</p>
+              <div class="skill-tags"><span>Copy</span><span>Local</span><span>SEO-ready</span></div>
+              <button class="open-skill" type="button" data-open-skill data-ui="open">Bekijk &amp; kopieer →</button>
+            </article>
+            <article class="skill-card" data-skill="dutch" data-category="writing" data-origin="goed">
+              <div class="skill-meta"><span>Writing</span><span class="skill-price">GOED Original</span></div>
+              <h3 data-title>Natuurlijk Nederlands</h3><p data-desc>Maakt stijve of vertaalde tekst natuurlijker zonder de betekenis te veranderen.</p>
+              <div class="skill-tags"><span>Nederlands</span><span>Rewrite</span><span>Tone</span></div>
+              <button class="open-skill" type="button" data-open-skill data-ui="open">Bekijk &amp; kopieer →</button>
+            </article>
+            <article class="skill-card" data-skill="photo" data-category="creative" data-origin="goed">
+              <div class="skill-meta"><span>Creative</span><span class="skill-price">GOED Original</span></div>
+              <h3 data-title>Lightroom Photo Coach</h3><p data-desc>Analyseert een foto en geeft een bewerkplan dat natuurlijk blijft.</p>
+              <div class="skill-tags"><span>Photo</span><span>Lightroom</span><span>Edit</span></div>
+              <button class="open-skill" type="button" data-open-skill data-ui="open">Bekijk &amp; kopieer →</button>
+            </article>
+            <article class="skill-card" data-skill="meeting" data-category="productivity" data-origin="goed">
+              <div class="skill-meta"><span>Productivity</span><span class="skill-price">GOED Original</span></div>
+              <h3 data-title>Meeting → Actieplan</h3><p data-desc>Zet notulen of transcript om in besluiten en taken zonder dingen te verzinnen.</p>
+              <div class="skill-tags"><span>Meeting</span><span>Tasks</span><span>Summary</span></div>
+              <button class="open-skill" type="button" data-open-skill data-ui="open">Bekijk &amp; kopieer →</button>
+            </article>
+          </div>
+
+          <div class="v4-empty" id="v4-empty" hidden>
+            <strong data-v4="noResults">Geen Skills gevonden.</strong>
+            <p data-v4="noResultsHint">Probeer een andere zoekterm of wis je filters.</p>
+          </div>
+          <button type="button" class="v4-load-more" id="load-more" data-v4="loadMore">Meer laden</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="custom-skill">
+      <div>
+        <p class="eyebrow"><i></i><span data-ui="customK">Voor je eigen workflow</span></p>
+        <h2 data-ui="customT">Laat een Skill op maat maken.</h2>
+        <p data-ui="customP">Heb je een terugkerende taak in je bedrijf? We kunnen er een vaste AI-werkwijze van maken — met jouw regels, voorbeelden en output.</p>
+      </div>
+      <a class="btn" href="mailto:hallo@goedwebwerk.nl?subject=AI%20Skill%20op%20maat" data-ui="customBtn">Bespreek een Skill</a>
+    </section>
+  </main>
+
+  <footer class="skills-footer">
+    <span>© 2026 GOED WEBWERK</span>
+    <span data-ui="footer">AI Skills zijn een nieuw onderdeel van GOED WEBWERK.</span>
+    <span><a href="sources.html">Open-source bronnen &amp; licenties</a> · <a href="/">goedwebwerk.nl ↗</a></span>
+  </footer>
+
+  <dialog id="skill-dialog">
+    <div class="modal-head">
+      <h2 id="modal-title">Skill</h2>
+      <button class="modal-close" type="button" data-close aria-label="Sluiten">×</button>
+    </div>
+    <div class="modal-body">
+      <p id="modal-desc"></p>
+      <h4 data-ui="input">Wat geef je mee?</h4><p id="modal-input"></p>
+      <h4 data-ui="output">Wat krijg je terug?</h4><p id="modal-output"></p>
+      <h4 data-ui="prompt">Skill prompt</h4>
+      <div class="prompt-box"><button class="copy-btn" id="copy-btn" type="button" data-ui="copy">Kopieer</button><pre id="modal-prompt"></pre></div>
+      <div class="community-meta" id="community-meta" hidden>
+        <div><span data-v4="source">Bron</span><a id="source-link" href="#" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+        <div><span data-v4="license">Licentie</span><strong id="license-value"></strong></div>
+        <div><span data-v4="package">Pakket</span><a id="download-link" href="#" download data-v4="download">Download Skill.zip</a></div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="skills.js?v=1"></script>
+  <script src="catalog-v4.js?v=1"></script>
+  <script src="skills-v3.js?v=1"></script>
+  <script src="skills-v3-2.js?v=1"></script>
+</body>
+</html>

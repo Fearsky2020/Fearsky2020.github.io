@@ -1,0 +1,48 @@
+/* Skills v4 hotfix — glyph room without layout growth */
+body.skills-v3 .skills-hero h1{
+  overflow:visible !important;
+}
+html:not([lang="zh-CN"]) body.skills-v3 .skills-hero h1{
+  font-size:clamp(62px,5.7vw,92px) !important;
+  line-height:.92 !important;
+  max-width:1080px !important;
+}
+html:not([lang="zh-CN"]) body.skills-v3 .skills-hero h1>span,
+html:not([lang="zh-CN"]) body.skills-v3 .skills-hero h1>em{
+  display:block;
+  overflow:visible !important;
+  line-height:.96 !important;
+  padding-top:.11em !important;
+  padding-bottom:.09em !important;
+  margin-top:-.11em !important;
+  margin-bottom:-.09em !important;
+}
+@media(min-width:900px){
+  html:not([lang="zh-CN"]) body.skills-v3 .skills-hero h1>em{
+    white-space:nowrap;
+  }
+}
+html[lang="zh-CN"] body.skills-v3 .skills-hero h1>span,
+html[lang="zh-CN"] body.skills-v3 .skills-hero h1>em{
+  overflow:visible !important;
+  line-height:1.02 !important;
+  padding-top:.08em !important;
+  padding-bottom:.06em !important;
+  margin-top:-.08em !important;
+  margin-bottom:-.06em !important;
+}
+@media(max-width:700px){
+  html:not([lang="zh-CN"]) body.skills-v3 .skills-hero h1{
+    font-size:clamp(46px,11.7vw,60px) !important;
+    line-height:.96 !important;
+  }
+  html:not([lang="zh-CN"]) body.skills-v3 .skills-hero h1>span,
+  html:not([lang="zh-CN"]) body.skills-v3 .skills-hero h1>em{
+    white-space:normal;
+    line-height:1 !important;
+    padding-top:.10em !important;
+    padding-bottom:.08em !important;
+    margin-top:-.10em !important;
+    margin-bottom:-.08em !important;
+  }
+}

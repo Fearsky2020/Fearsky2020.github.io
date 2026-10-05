@@ -1,0 +1,78 @@
+/* Home v8 — final Chinese typography fixes */
+
+/* About title: explicit two-line rhythm instead of browser word packing */
+html[lang="zh-CN"] body.v3-immersive .about-copy h2{
+  font-family:Goed,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+  font-size:clamp(48px,4.6vw,68px)!important;
+  line-height:1.08!important;
+  letter-spacing:-.035em!important;
+  max-width:760px!important;
+  word-break:keep-all!important;
+  overflow-wrap:normal!important;
+  text-wrap:pretty;
+}
+@media(max-width:760px){
+  html[lang="zh-CN"] body.v3-immersive .about-copy h2{
+    font-size:clamp(36px,10.2vw,46px)!important;
+    line-height:1.12!important;
+    word-break:normal!important;
+  }
+}
+
+/* Mobile hero: fit the actual 390px viewport instead of inheriting desktop scale */
+@media(max-width:760px){
+  html[lang="zh-CN"] body.v3-immersive .hero{
+    grid-template-columns:1fr!important;
+  }
+  html[lang="zh-CN"] body.v3-immersive .hero-main{
+    width:100%!important;
+    max-width:none!important;
+  }
+  html[lang="zh-CN"] body.v3-immersive .hero h1{
+    width:100%!important;
+    max-width:none!important;
+    font-size:clamp(38px,10.2vw,46px)!important;
+    line-height:1.05!important;
+    gap:.10em!important;
+    margin:18px 0 20px!important;
+  }
+  html[lang="zh-CN"] body.v3-immersive .hero h1>span,
+  html[lang="zh-CN"] body.v3-immersive .hero h1>em{
+    white-space:normal!important;
+    word-break:keep-all!important;
+    overflow-wrap:normal!important;
+    line-height:1.05!important;
+    margin:0!important;
+    padding:.04em 0 .06em!important;
+    max-width:100%!important;
+  }
+  html[lang="zh-CN"] body.v3-immersive .hero-bottom>p{
+    font-size:16px!important;
+    line-height:1.72!important;
+  }
+}
+
+/* 213 counter: give glyphs a real line box; no negative baseline tricks */
+body.v3-immersive .skills-home,
+body.v3-immersive .skills-home-head,
+body.v3-immersive .v3-skills-count{
+  overflow:visible!important;
+}
+body.v3-immersive .v3-skills-count{
+  display:inline-flex!important;
+  align-items:flex-end!important;
+  min-height:0!important;
+  padding-bottom:4px!important;
+}
+body.v3-immersive .v3-skills-count b{
+  display:inline-block!important;
+  line-height:1.04!important;
+  padding:.03em 0 .12em!important;
+  margin:0!important;
+  overflow:visible!important;
+  background-clip:text!important;
+  -webkit-background-clip:text!important;
+}
+body.v3-immersive .v3-skills-count span{
+  padding-bottom:.62em;
+}

@@ -1,0 +1,231 @@
+/* GOED WEBWERK home v6 — cleanup pass */
+
+/* Portfolio: consistent two-column case grid */
+@media(min-width:901px){
+  body.v3-immersive .work-layout{
+    display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:24px!important;
+    align-items:stretch!important;
+  }
+  body.v3-immersive .work-layout .case:nth-child(n){
+    grid-column:auto!important;
+    margin:0!important;
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    grid-template-rows:330px minmax(260px,1fr)!important;
+    min-width:0!important;
+  }
+  body.v3-immersive .work-layout .case-image{
+    height:330px!important;
+    min-height:330px!important;
+    border-radius:26px 26px 0 0!important;
+  }
+  body.v3-immersive .work-layout .case-copy{
+    min-height:260px!important;
+    display:flex!important;
+    flex-direction:column!important;
+  }
+  body.v3-immersive .work-layout .case-copy>a,
+  body.v3-immersive .work-layout .case-preview-label{
+    margin-top:auto!important;
+    align-self:flex-start;
+  }
+}
+@media(max-width:900px){
+  body.v3-immersive .work-layout{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:18px!important;
+  }
+  body.v3-immersive .work-layout .case:nth-child(n){
+    margin:0!important;
+    width:100%!important;
+    max-width:none!important;
+    grid-template-columns:1fr!important;
+    grid-template-rows:230px auto!important;
+  }
+  body.v3-immersive .work-layout .case-image{
+    height:230px!important;
+    min-height:230px!important;
+  }
+  body.v3-immersive .work-layout .case-copy{
+    min-height:0!important;
+  }
+}
+
+/* Chinese headings: deliberate rhythm, no accidental word splitting */
+html[lang="zh-CN"] body.v3-immersive .editorial-heading h2,
+html[lang="zh-CN"] body.v3-immersive .service-index h2,
+html[lang="zh-CN"] body.v3-immersive .v3-cap-head h2,
+html[lang="zh-CN"] body.v3-immersive .skills-home-head h2,
+html[lang="zh-CN"] body.v3-immersive .process-intro h2,
+html[lang="zh-CN"] body.v3-immersive .pricing-title h2,
+html[lang="zh-CN"] body.v3-immersive .contact-copy h2{
+  word-break:keep-all!important;
+  overflow-wrap:normal!important;
+  text-wrap:balance;
+  line-height:1.04!important;
+  letter-spacing:-.04em!important;
+}
+html[lang="zh-CN"] body.v3-immersive .editorial-heading h2,
+html[lang="zh-CN"] body.v3-immersive .service-index h2,
+html[lang="zh-CN"] body.v3-immersive .v3-cap-head h2,
+html[lang="zh-CN"] body.v3-immersive .skills-home-head h2,
+html[lang="zh-CN"] body.v3-immersive .pricing-title h2{
+  font-size:clamp(52px,5.8vw,84px)!important;
+}
+html[lang="zh-CN"] body.v3-immersive .contact-copy h2{
+  font-size:clamp(52px,5.2vw,76px)!important;
+  max-width:760px!important;
+}
+html[lang="zh-CN"] body.v3-immersive .process-intro h2{
+  font-size:clamp(48px,5.3vw,78px)!important;
+}
+@media(max-width:640px){
+  html[lang="zh-CN"] body.v3-immersive .editorial-heading h2,
+  html[lang="zh-CN"] body.v3-immersive .service-index h2,
+  html[lang="zh-CN"] body.v3-immersive .v3-cap-head h2,
+  html[lang="zh-CN"] body.v3-immersive .skills-home-head h2,
+  html[lang="zh-CN"] body.v3-immersive .process-intro h2,
+  html[lang="zh-CN"] body.v3-immersive .pricing-title h2,
+  html[lang="zh-CN"] body.v3-immersive .contact-copy h2{
+    font-size:clamp(38px,10.8vw,48px)!important;
+    line-height:1.08!important;
+    word-break:normal!important;
+    overflow-wrap:normal!important;
+  }
+}
+
+/* AI Skills counter: keep descenders fully visible */
+body.v3-immersive .v3-skills-count{
+  align-items:center!important;
+  overflow:visible!important;
+  min-height:120px;
+}
+body.v3-immersive .v3-skills-count b{
+  display:inline-block;
+  overflow:visible!important;
+  line-height:.98!important;
+  padding:.05em 0 .10em!important;
+  margin-bottom:-.08em;
+}
+body.v3-immersive .v3-skills-count span{
+  color:rgba(255,255,255,.82)!important;
+  max-width:190px!important;
+}
+
+/* About focus promise: one visual axis */
+body.v3-immersive .focus-promise{
+  display:grid!important;
+  grid-template-columns:minmax(320px,.9fr) minmax(0,1.25fr)!important;
+  gap:42px!important;
+  align-items:center!important;
+  padding:28px 32px!important;
+}
+body.v3-immersive .focus-promise>div{
+  display:grid!important;
+  grid-template-columns:42px minmax(0,1fr)!important;
+  gap:16px!important;
+  align-items:center!important;
+}
+body.v3-immersive .focus-promise>div>span{
+  align-self:center!important;
+  margin:0!important;
+  font-size:13px!important;
+  line-height:1!important;
+}
+body.v3-immersive .focus-promise h3{
+  align-self:center!important;
+  margin:0!important;
+  line-height:1.3!important;
+}
+body.v3-immersive .focus-promise>p{
+  align-self:center!important;
+  margin:0!important;
+  padding:0!important;
+  color:rgba(255,255,255,.82)!important;
+  line-height:1.7!important;
+}
+@media(max-width:900px){
+  body.v3-immersive .focus-promise{
+    grid-template-columns:1fr!important;
+    gap:18px!important;
+    padding:24px!important;
+  }
+  body.v3-immersive .focus-promise>p{padding:0!important}
+}
+
+/* Pricing: custom card must be readable */
+body.v3-immersive .price-card.custom{
+  background:linear-gradient(155deg,#fffaf0,#f3ecdf)!important;
+  color:#0b1b30!important;
+  border:2px solid #df4f96!important;
+  box-shadow:0 24px 64px rgba(29,35,47,.10)!important;
+}
+body.v3-immersive .price-card.custom .price-level{
+  color:#087cae!important;
+}
+body.v3-immersive .price-card.custom h3,
+body.v3-immersive .price-card.custom .price-choice p{
+  color:#0b1b30!important;
+}
+body.v3-immersive .price-card.custom .price-choice>small,
+body.v3-immersive .price-card.custom .price-example,
+body.v3-immersive .price-card.custom li{
+  color:#425063!important;
+}
+body.v3-immersive .price-card.custom .price-card-head,
+body.v3-immersive .price-card.custom li{
+  border-color:rgba(11,27,48,.22)!important;
+}
+body.v3-immersive .price-card.custom .price-choice p small,
+body.v3-immersive .price-card.custom .price-choice p sup{
+  color:#637083!important;
+}
+body.v3-immersive .price-card.custom .care{
+  background:#183354!important;
+  color:#fff!important;
+}
+body.v3-immersive .price-card.custom .care span{
+  color:rgba(255,255,255,.78)!important;
+}
+
+/* Pricing CTA: visual weight matches its button */
+body.v3-immersive .price-footer .primary-link{
+  min-width:280px;
+  min-height:78px;
+  padding:20px 24px!important;
+  font-size:19px!important;
+  font-weight:800!important;
+  border-radius:16px!important;
+}
+body.v3-immersive .price-footer .primary-link span{
+  font-size:19px!important;
+  font-weight:800!important;
+}
+body.v3-immersive .price-footer .primary-link b{
+  font-size:23px!important;
+}
+@media(max-width:760px){
+  body.v3-immersive .price-footer .primary-link{
+    width:100%;
+    min-width:0;
+    justify-content:space-between;
+  }
+}
+
+/* Contact: short Chinese title gets room instead of becoming a glyph wall */
+html[lang="zh-CN"] body.v3-immersive .contact-copy{
+  max-width:780px;
+}
+html[lang="zh-CN"] body.v3-immersive .contact-copy>p{
+  max-width:680px;
+  font-size:18px!important;
+  line-height:1.75!important;
+}
+
+/* Keep strong contrast from previous pass */
+body.v3-immersive .process li p{color:#3d4853!important}
+body.v3-immersive .v3-cap p{color:rgba(255,255,255,.88)!important}
+body.v3-immersive .service-index-links span{color:rgba(255,255,255,.86)!important}
